@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weather_card_view_item">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/header"
+                android:textSize="30sp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.example.m1.weatherapplicationsample.View.WeatherView
+                    android:id="@+id/weather_item_1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <com.example.m1.weatherapplicationsample.View.WeatherView
+                    android:id="@+id/weather_item_2"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <com.example.m1.weatherapplicationsample.View.WeatherView
+                    android:id="@+id/weather_item_3"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.example.m1.weatherapplicationsample.View.WeatherView
+                    android:id="@+id/weather_item_4"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <com.example.m1.weatherapplicationsample.View.WeatherView
+                    android:id="@+id/weather_item_5"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <com.example.m1.weatherapplicationsample.View.WeatherView
+                    android:id="@+id/weather_item_6"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
